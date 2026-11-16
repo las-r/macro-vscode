@@ -1,12 +1,12 @@
 {
-    "name": "micro-vscode",
-    "displayName": "micro",
-    "description": "VSCode language support for the micro programming language.",
+    "name": "macro-vscode",
+    "displayName": "macro",
+    "description": "VSCode language support for the macro programming language.",
     "version": "0.2.2",
     "publisher": "las-r",
     "repository": {
         "type": "git",
-        "url": "https://github.com/las-r/micro-vscode"
+        "url": "https://github.com/las-r/macro-vscode"
     },
     "engines": {
         "vscode": "^1.146.0"
@@ -17,23 +17,23 @@
     "contributes": {
         "languages": [
             {
-                "id": "micro",
+                "id": "macro",
                 "aliases": [
-                    "micro",
-                    "micro"
+                    "macro",
+                    "macro"
                 ],
                 "extensions": [
-                    ".mic",
-                    ".micro"
+                    ".mac",
+                    ".macro"
                 ],
                 "configuration": "./language-configuration.json"
             }
         ],
         "grammars": [
             {
-                "language": "micro",
-                "scopeName": "source.micro",
-                "path": "./syntaxes/micro.tmLanguage.json"
+                "language": "macro",
+                "scopeName": "source.macro",
+                "path": "./syntaxes/macro.tmLanguage.json"
             }
         ]
     }
