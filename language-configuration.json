@@ -20,7 +20,7 @@
         ["\"", "\""]
     ],
     "indentationRules": {
-        "increaseIndentPattern": "^\\s*(if|else|while|func|for|@)\\b.*$",
+        "increaseIndentPattern": "^\\s*(if|else|while|for|func)\\b.*$|@(\\([^)]*\\))?\\s*$",
         "decreaseIndentPattern": "^\\s*(end|else)\\b.*$"
-    },
+    }
 }
