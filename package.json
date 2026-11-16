@@ -2,7 +2,7 @@
     "name": "macro-vscode",
     "displayName": "macro",
     "description": "VSCode language support for the macro programming language.",
-    "version": "0.2.2",
+    "version": "0.1.0",
     "publisher": "las-r",
     "repository": {
         "type": "git",
